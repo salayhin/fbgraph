@@ -7,8 +7,8 @@
     </list>
     <ignored path="fbgraph.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379509151884" ignored="false" />
-    <file path="/oauth_controller.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379509391033" ignored="false" />
+    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379509397165" ignored="false" />
+    <file path="/oauth_controller.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379509734940" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="oauth_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="47" selection-start="910" selection-end="910" vertical-scroll-proportion="0.46075085">
+            <state line="25" column="4" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.63993174">
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="publish_feeds_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/publish_feeds_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="47" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
+            <state line="9" column="120" selection-start="277" selection-end="387" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -220,7 +220,11 @@
       <created>1379509152733</created>
       <updated>1379509152733</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Debugging">
+      <created>1379509397978</created>
+      <updated>1379509397978</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -309,13 +313,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/publish_feeds_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="6" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
@@ -323,9 +320,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/publish_feeds_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="120" selection-start="277" selection-end="387" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="47" selection-start="910" selection-end="910" vertical-scroll-proportion="0.46075085">
+        <state line="25" column="4" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.63993174">
           <folding />
         </state>
       </provider>
