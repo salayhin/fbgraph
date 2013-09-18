@@ -13,8 +13,8 @@ class OauthController < ApplicationController
     @contacts_host = 'graph.facebook.com'
     @friends_path = '/me/friends'
     friends_response = https_get(@contacts_host, @friends_path, {:access_token => access_token, :fields => 'email,first_name,last_name,name,id,gender,birthday,picture'})
-
-    render :json => friends_response
+    puts friends_response
+    #render :json => friends_response
   end
 
   def oclient
