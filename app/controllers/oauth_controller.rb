@@ -10,7 +10,11 @@ class OauthController < ApplicationController
     user_json = client.selection.me.info!
     # in reality you would at this point store the access_token.token value as well as 
     # any user info you wanted
-    render :json => user_json
+    @contacts_host = 'graph.facebook.com'
+    @friends_path = '/me/friends'
+    friends_response = https_get(@contacts_host, @friends_path, {:access_token => access_token, :scope => 'email,user_photos,friends_photos,publish_stream, read_friendlists', :fields => 'email,first_name,last_name,name,id,gender,birthday,picture'})
+
+    render :json => friends_response
   end
 
   def oclient
