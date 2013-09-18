@@ -10,6 +10,48 @@ class ApplicationController < ActionController::Base
 
   SSL_PORT = 443
 
+
+  def query_string_to_map query_string
+    query_string.split('&').reduce({}) do |memo, key_value|
+      (key, value) = key_value.split('=')
+      memo[key]= value
+      memo
+    end
+  end
+
+  def to_query_string map
+    map.collect do |key, value|
+      key.to_s + "=" + value.to_s
+    end.join("&")
+  end
+
+  # Encodes the given input according to RFC 3986
+  def encode to_encode
+    CGI.escape(to_encode)
+  end
+
+  # Calculates the url of the host from a Rack environment.
+  # The result is in the form scheme://host:port
+  # If port is 80 the result is scheme://host
+  # According to Rack specification the HTTP_HOST variable is preferred over SERVER_NAME.
+  def host_url_from_rack_env env
+    port = ((env["SERVER_PORT"] == 80) && "") || ":#{env['SERVER_PORT']}"
+    host = (env["HTTP_HOST"]) || (env["SERVER_NAME"] + port)
+    "#{scheme(env)}://#{host}"
+  end
+
+  def scheme env
+    if env['HTTPS'] == 'on'
+      'https'
+    elsif env['HTTP_X_FORWARDED_SSL'] == 'on'
+      'https'
+    elsif env['HTTP_X_FORWARDED_PROTO']
+      env['HTTP_X_FORWARDED_PROTO'].split(',').first
+    else
+      env["rack.url_scheme"]
+    end
+  end
+
   # Executes an HTTP GET request.
   # It raises a RuntimeError if the response code is not equal to 200
   def http_get host, path, params

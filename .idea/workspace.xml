@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498205981" ignored="false" />
     <file path="/.gitignore" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498673062" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379504932330" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379505261727" ignored="false" />
     <file path="/publish_feeds_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379501731811" ignored="false" />
     <file path="/oauth_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379503899117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="116" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.53754264">
+            <state line="52" column="5" selection-start="1419" selection-end="1419" vertical-scroll-proportion="1.331058">
               <folding />
             </state>
           </provider>
@@ -515,7 +515,11 @@
       <created>1379504933422</created>
       <updated>1379504933422</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Debugging">
+      <created>1379505262519</created>
+      <updated>1379505262519</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="116" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.53754264">
+        <state line="52" column="5" selection-start="1419" selection-end="1419" vertical-scroll-proportion="1.331058">
           <folding />
         </state>
       </provider>
