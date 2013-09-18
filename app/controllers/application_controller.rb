@@ -34,7 +34,7 @@ class ApplicationController < ActionController::Base
   end
 
   def https_connection (host)
-    connection = Net::HTTP.new(host, SSL_PORT)
+    connection = Net::HTTP.new(host, 443)
     connection.use_ssl = true
     if ssl_ca_file
       connection.ca_file = ssl_ca_file
