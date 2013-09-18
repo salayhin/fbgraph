@@ -12,7 +12,7 @@ class OauthController < ApplicationController
     # any user info you wanted
     @contacts_host = 'graph.facebook.com'
     @friends_path = '/me/friends'
-    friends_response = https_get(@contacts_host, @friends_path, {:access_token => access_token, :scope => 'email,user_photos,friends_photos,publish_stream, read_friendlists', :fields => 'email,first_name,last_name,name,id,gender,birthday,picture'})
+    friends_response = https_get(@contacts_host, @friends_path, {:access_token => access_token, :fields => 'email,first_name,last_name,name,id,gender,birthday,picture'})
 
     render :json => friends_response
   end
