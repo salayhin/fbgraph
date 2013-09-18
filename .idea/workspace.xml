@@ -7,8 +7,8 @@
     </list>
     <ignored path="fbgraph.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379508586365" ignored="false" />
-    <file path="/oauth_controller.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379509144419" ignored="false" />
+    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379509151884" ignored="false" />
+    <file path="/oauth_controller.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379509391033" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="oauth_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="850" selection-end="850" vertical-scroll-proportion="0.4095563">
+            <state line="18" column="47" selection-start="910" selection-end="910" vertical-scroll-proportion="0.46075085">
               <folding />
             </state>
           </provider>
@@ -216,7 +216,11 @@
       <created>1379508588201</created>
       <updated>1379508588201</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Debugging">
+      <created>1379509152733</created>
+      <updated>1379509152733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -321,7 +325,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="850" selection-end="850" vertical-scroll-proportion="0.4095563">
+        <state line="18" column="47" selection-start="910" selection-end="910" vertical-scroll-proportion="0.46075085">
           <folding />
         </state>
       </provider>

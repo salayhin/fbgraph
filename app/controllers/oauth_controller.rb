@@ -1,3 +1,5 @@
+require 'json'
+
 class OauthController < ApplicationController
 
   def start
@@ -13,7 +15,7 @@ class OauthController < ApplicationController
     @contacts_host = 'graph.facebook.com'
     @friends_path = '/me/friends'
     friends_response = https_get(@contacts_host, @friends_path, {:access_token => access_token, :fields => 'email,first_name,last_name,name,id,gender,birthday,picture'})
-    puts friends_response
+    puts JSON.parse(friends_response)
     #render :json => friends_response
   end
 
