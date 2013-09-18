@@ -8,6 +8,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  SSL_PORT = 443
+
   # Executes an HTTP GET request.
   # It raises a RuntimeError if the response code is not equal to 200
   def http_get host, path, params

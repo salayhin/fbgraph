@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498205981" ignored="false" />
     <file path="/.gitignore" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498673062" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379504353217" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379504553203" ignored="false" />
     <file path="/publish_feeds_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379501731811" ignored="false" />
     <file path="/oauth_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379503899117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="45" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.7679181">
+            <state line="10" column="16" selection-start="289" selection-end="289" vertical-scroll-proportion="0.25597268">
               <folding />
             </state>
           </provider>
@@ -494,7 +494,11 @@
       <created>1379504356395</created>
       <updated>1379504356395</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Debugging">
+      <created>1379504554367</created>
+      <updated>1379504554367</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -687,14 +691,14 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/net/http.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="721" column="4" selection-start="23289" selection-end="23289" vertical-scroll-proportion="0.33222038">
+        <state line="1194" column="8" selection-start="37802" selection-end="37802" vertical-scroll-proportion="0.3327645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="45" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.7679181">
+        <state line="10" column="16" selection-start="289" selection-end="289" vertical-scroll-proportion="0.25597268">
           <folding />
         </state>
       </provider>
