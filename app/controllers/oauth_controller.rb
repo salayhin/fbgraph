@@ -1,7 +1,7 @@
 class OauthController < ApplicationController
 
   def start
-    redirect_to client.authorization.authorize_url(:redirect_uri => callback_oauth_index_url , :scope => 'email,user_photos,friends_photos,publish_stream')
+    redirect_to client.authorization.authorize_url(:redirect_uri => callback_oauth_index_url , :scope => 'email,user_photos,friends_photos,publish_stream, read_friendlists')
   end
 
   def callback

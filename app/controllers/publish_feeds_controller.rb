@@ -4,4 +4,9 @@ class PublishFeedsController < ApplicationController
     user = client.selection.me.info!
     client.selection.user(user[:id]).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
   end
+
+  def create
+    user = client.selection.me.info!
+    client.selection.user(user[:id]).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
+  end
 end
