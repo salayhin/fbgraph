@@ -492,3 +492,23 @@ NameError (undefined local variable or method `callback_oauths_url' for #<OauthC
   Rendered /home/salayhin/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
   Rendered /home/salayhin/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
   Rendered /home/salayhin/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 16:38:33 +0600
+Processing by OauthController#start as HTML
+Completed 500 Internal Server Error in 25ms
+
+NameError (undefined local variable or method `callback_oauths_url' for #<OauthController:0x00000002d317b8>):
+  app/controllers/oauth_controller.rb:4:in `start'
+
+
+  Rendered /home/salayhin/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /home/salayhin/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/salayhin/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/salayhin/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-18 16:44:55 +0600
+Processing by OauthController#start as HTML
+Redirected to https://graph.facebook.com/oauth/authorize?response_type=code&client_id=165217670339554&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth%2Fcallback&scope=email%2Cuser_photos%2Cfriends_photos%2Cpublish_stream
+Completed 302 Found in 28ms (ActiveRecord: 0.0ms)
