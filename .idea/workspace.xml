@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b895934-4ea4-43d0-a9a1-1642473fdc54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/oauth/callback.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fbgraph.iml" afterPath="$PROJECT_DIR$/.idea/fbgraph.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/oauth_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/oauth_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/publish_feeds_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/publish_feeds_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fbgraph.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498205981" ignored="false" />
     <file path="/.gitignore" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498673062" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379501263990" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379504353217" ignored="false" />
     <file path="/publish_feeds_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379501731811" ignored="false" />
-    <file path="/oauth_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379501982454" ignored="false" />
+    <file path="/oauth_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379503899117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,37 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+            <state line="30" column="45" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.7679181">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oauth_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="oauth_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="446" selection-end="446" vertical-scroll-proportion="0.23893805">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selection.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/fbgraph-1.10.0/lib/fbgraph/selection.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="17" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/fbgraph-1.10.0/lib/fbgraph/client.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="42" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
+            <state line="14" column="27" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,12 +99,12 @@
         <option value="$PROJECT_DIR$/app/controllers/search_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/selection_controller.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/oauth/callback.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/publish_feeds_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/oauth_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -186,6 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../import-contact" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
   </component>
@@ -503,7 +482,19 @@
       <created>1379501268360</created>
       <updated>1379501268360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Debugging">
+      <created>1379503512887</created>
+      <updated>1379503512887</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Debugging">
+      <created>1379503936074</created>
+      <updated>1379503936074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Debugging">
+      <created>1379504356395</created>
+      <updated>1379504356395</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -572,7 +563,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Callback URL changed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Debugging" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -588,6 +579,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="PG added" />
     <MESSAGE value="Callback URL changed." />
+    <MESSAGE value="Debugging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,20 +587,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/pictures_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/selection_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="58" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
@@ -672,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/publish_feeds_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="52" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
@@ -686,23 +657,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/fbgraph-1.10.0/lib/fbgraph/client.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/fbgraph-1.10.0/lib/fbgraph/selection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="42" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
+        <state line="25" column="63" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.12353923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/fbgraph-1.10.0/lib/fbgraph/selection.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/fbgraph-1.10.0/lib/fbgraph/client.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+        <state line="36" column="42" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.9015025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/fbgraph-1.10.0/lib/fbgraph/authorization.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="63" selection-start="287" selection-end="287" vertical-scroll-proportion="0.2754591">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="446" selection-end="446" vertical-scroll-proportion="0.23893805">
+        <state line="14" column="27" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p429/lib/ruby/1.9.1/net/http.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="721" column="4" selection-start="23289" selection-end="23289" vertical-scroll-proportion="0.33222038">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="45" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.7679181">
           <folding />
         </state>
       </provider>
