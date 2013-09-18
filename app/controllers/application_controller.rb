@@ -36,12 +36,12 @@ class ApplicationController < ActionController::Base
   def https_connection (host)
     connection = Net::HTTP.new(host, 443)
     connection.use_ssl = true
-    if ssl_ca_file
-      connection.ca_file = ssl_ca_file
-    else
-      logger << "No SSL ca file provided. It is highly reccomended to use one in production envinronments" if respond_to?(:logger) && logger
-      connection.verify_mode = OpenSSL::SSL::VERIFY_NONE
-    end
+    #if ssl_ca_file
+    #  connection.ca_file = ssl_ca_file
+    #else
+    #  logger << "No SSL ca file provided. It is highly reccomended to use one in production envinronments" if respond_to?(:logger) && logger
+    #  connection.verify_mode = OpenSSL::SSL::VERIFY_NONE
+    #end
     process_http_response(yield(connection))
   end
 

@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498205981" ignored="false" />
     <file path="/.gitignore" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379498673062" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379504749551" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379504932330" ignored="false" />
     <file path="/publish_feeds_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379501731811" ignored="false" />
     <file path="/oauth_controller.rb" changelist="3b895934-4ea4-43d0-a9a1-1642473fdc54" time="1379503899117" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +43,16 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="50" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.56149733">
+            <state line="36" column="116" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.53754264">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/rest-client-1.6.7/lib/restclient/request.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="4" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -502,7 +511,11 @@
       <created>1379504750801</created>
       <updated>1379504750801</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Debugging">
+      <created>1379504933422</created>
+      <updated>1379504933422</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -595,13 +608,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/selection_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="58" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="12" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
@@ -700,9 +706,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/rest-client-1.6.7/lib/restclient/request.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="4" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="50" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.56149733">
+        <state line="36" column="116" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.53754264">
           <folding />
         </state>
       </provider>
