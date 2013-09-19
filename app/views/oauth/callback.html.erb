@@ -2,24 +2,30 @@
 
 <script language="javascript" type="text/javascript">
 
-    //function postToFriend() {
+  $('#post_comments').click(function(){
+      //function postToFriend() {
 
-        // calling the API ...
-        var obj = {
-            method: 'feed',
-            to: '1137070039',
-            link: 'http://www.facebook.com/thepcwizardblog',
-            picture: 'http://fbrell.com/f8.jpg',
-            name: 'Feed Dialog',
-            caption: 'Tagging Friends',
-            description: 'Using Dialogs for posting to friends timeline.'
-        };
+          // calling the API ...
+          var obj = {
+              method: 'feed',
+              to: '1137070039',
+              link: 'http://www.facebook.com/thepcwizardblog',
+              picture: 'http://fbrell.com/f8.jpg',
+              name: 'Feed Dialog',
+              caption: 'Tagging Friends',
+              description: 'Using Dialogs for posting to friends timeline.'
+          };
 
-        function callback(response) {
-            document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
-        }
+          function callback(response) {
+              document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
+          }
 
-        FB.ui(obj, callback);
-    //}
+          FB.ui(obj, callback);
+      //}
+  });
+
+
 
 </script>
+
+<%= @friends_response.to_json %>
