@@ -23,6 +23,10 @@ class OauthController < ApplicationController
     #end
     client.selection.user(100000277256161).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
 
+
+
+
+
     render :json => friends_response
   end
 

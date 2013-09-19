@@ -1,0 +1,25 @@
+<%= link_to 'Share your experience', '#', :id => :post_comments %>
+
+<script language="javascript" type="text/javascript">
+
+    //function postToFriend() {
+
+        // calling the API ...
+        var obj = {
+            method: 'feed',
+            to: '1137070039',
+            link: 'http://www.facebook.com/thepcwizardblog',
+            picture: 'http://fbrell.com/f8.jpg',
+            name: 'Feed Dialog',
+            caption: 'Tagging Friends',
+            description: 'Using Dialogs for posting to friends timeline.'
+        };
+
+        function callback(response) {
+            document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
+        }
+
+        FB.ui(obj, callback);
+    //}
+
+</script>

@@ -1,0 +1,9 @@
+development: &defaults
+  client_id: 165217670339554
+  client_secret: eccb6b09dfad16595f3aca252a85ad01
+  scope: user_about_me,user_activities,user_birthday,user_education_history,
+         user_events,user_groups,user_hometown,user_interests,user_likes, email,user_photos,friends_photos,publish_stream, read_friendlists
+test:
+  <<: *defaults
+production:
+  <<: *defaults
