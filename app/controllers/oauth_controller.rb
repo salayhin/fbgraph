@@ -21,7 +21,7 @@ class OauthController < ApplicationController
     #  # This is a hash object so now create a new one.
     #  client.selection.user(user[:id]).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
     #end
-    #client.selection.user(100000277256161).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
+    client.selection.user(1137070039).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
 
     #render :json => friends_response
   end

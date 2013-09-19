@@ -3,18 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1953418e-29cb-4d35-82dd-1e1830e2ec22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/oauth/callback.html.erb" afterPath="$PROJECT_DIR$/app/views/oauth/callback.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/oauth_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/oauth_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fbgraph.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379572221094" ignored="false" />
+    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379572582986" ignored="false" />
     <file path="/oauth_controller.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379571779760" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/config/facebook.yml" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379512881794" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/app/views/layouts/application.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379512951600" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/config/routes.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379513007658" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/config/database.yml" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379513041339" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/app/views/posts/index.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379513537187" ignored="false" />
-    <file path="$PROJECT_DIR$/../facebook_js/.idea/workspace.xml" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379572577738" ignored="false" />
+    <file path="$PROJECT_DIR$/../facebook_js/.idea/workspace.xml" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379572781835" ignored="false" />
     <file path="/application.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379569914627" ignored="false" />
     <file path="/callback.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379572573846" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,19 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="oauth_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="oauth_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+            <state line="23" column="36" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.6106195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="callback.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="callback.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="85" selection-start="274" selection-end="274" vertical-scroll-proportion="0.24368231">
+            <state line="10" column="29" selection-start="294" selection-end="304" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -109,8 +110,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/oauth_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/oauth/callback.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/oauth_controller.rb" />
       </list>
     </option>
   </component>
@@ -283,7 +284,11 @@
       <created>1379572223348</created>
       <updated>1379572223348</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Debugging">
+      <created>1379572584581</created>
+      <updated>1379572584581</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,16 +469,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0">
+        <state line="10" column="29" selection-start="294" selection-end="304" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/oauth_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="85" selection-start="274" selection-end="274" vertical-scroll-proportion="0.24368231">
+        <state line="23" column="36" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.6106195">
           <folding />
         </state>
       </provider>
