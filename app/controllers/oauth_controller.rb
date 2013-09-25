@@ -22,7 +22,7 @@ class OauthController < ApplicationController
     #  client.selection.user(user[:id]).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
     #end
     #client.selection.user(1137070039).feed.publish!(:message => 'test message []FBGraph[]' , :name => 'test name')
-    FbGraph::User.new(id, access_token: access_token).feed!(message: post_text)
+    #FbGraph::User.new(id, access_token: access_token).feed!(message: post_text)
     #render :json => friends_response
   end
 
