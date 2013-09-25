@@ -1,31 +1,41 @@
-<%= link_to 'Share your experience', '#', :id => :post_comments %>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<body>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<div id="fb-root"></div>
+<script>
+    // assume we are already logged in
+    //      FB.init({appId: '<%#= APP_KEY %>', xfbml: true, cookie: true});
+    //      {new_bride_url}
+    FB.ui({
+        method: 'send',
+        name: 'testing',
+        link: 'google.com',
+        picture: '<%= "" %>',
+        to: <%= @team_member.facebook_uid %>,
+        description: 'SnapKnot helps engaged couples find their perfect wedding photographer, and allows wedding guests to socialize and have early access to photos. Browse thousands of wedding and engagement photos for inspiration, choose your favorite photographers and contact for booking info - all for free.',
+        show_error: true
+    },requestCallback);
 
-<script language="javascript" type="text/javascript">
+    function requestCallback(response) {
+        if (response== null){
+            // sending cancelled action
+        }else{
+            if(response["success"] == true){
+                $.ajax({
+                    type: "post",
+                    url: "<%= send_invitation_msg_bride_manage_your_team_index_path %>",
+                    data: {team_member_id: "100000277256161>" },
+                    success: function() {
+                        $("#invite-member-100000277256161").parent().html("Invitation Sent");
 
-  $(document).ready(function(){
-      //function postToFriend() {
-
-          // calling the API ...
-          var obj = {
-              method: 'feed',
-              to: '1137070039',
-              link: 'http://www.facebook.com/thepcwizardblog',
-              picture: 'http://fbrell.com/f8.jpg',
-              name: 'Feed Dialog',
-              caption: 'Tagging Friends',
-              description: 'Using Dialogs for posting to friends timeline.'
-          };
-
-          function callback(response) {
-              document.getElementById('msg').innerHTML = "Post ID: " + response['post_id'];
-          }
-
-          FB.ui(obj, callback);
-      //}
-  });
-
-
-
+                    }
+                });
+            }
+        }
+        $.colorbox.close();
+    }
 </script>
+</body>
+</html>
 
 <%= @friends_response %>
