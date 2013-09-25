@@ -11,7 +11,7 @@
         name: 'testing',
         link: 'google.com',
         picture: '<%= "" %>',
-        to: <%= @team_member.facebook_uid %>,
+        to: 100000277256161,
         description: 'SnapKnot helps engaged couples find their perfect wedding photographer, and allows wedding guests to socialize and have early access to photos. Browse thousands of wedding and engagement photos for inspiration, choose your favorite photographers and contact for booking info - all for free.',
         show_error: true
     },requestCallback);
@@ -23,7 +23,7 @@
             if(response["success"] == true){
                 $.ajax({
                     type: "post",
-                    url: "<%= send_invitation_msg_bride_manage_your_team_index_path %>",
+                    url: "",
                     data: {team_member_id: "100000277256161>" },
                     success: function() {
                         $("#invite-member-100000277256161").parent().html("Invitation Sent");
