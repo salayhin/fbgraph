@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1953418e-29cb-4d35-82dd-1e1830e2ec22" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/oauth/callback.html.erb" afterPath="$PROJECT_DIR$/app/views/oauth/callback.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fbgraph.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1380085371022" ignored="false" />
+    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1380085539897" ignored="false" />
     <file path="/oauth_controller.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1380084934589" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/config/facebook.yml" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379512881794" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/app/views/layouts/application.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379512951600" ignored="false" />
@@ -45,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="callback.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="callback.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="7" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.74861366">
+            <state line="6" column="36" selection-start="233" selection-end="233" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -72,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="347" selection-end="347" vertical-scroll-proportion="-8.125">
+            <state line="15" column="0" selection-start="336" selection-end="466" vertical-scroll-proportion="0.4061372">
               <folding />
             </state>
           </provider>
@@ -126,9 +127,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/oauth_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/oauth/callback.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -337,7 +338,11 @@
       <created>1380085372036</created>
       <updated>1380085372036</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Modification done">
+      <created>1380085541523</created>
+      <updated>1380085541523</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -505,13 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="347" selection-end="347" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="6" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
@@ -535,7 +533,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.74861366">
+        <state line="6" column="36" selection-start="233" selection-end="233" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="336" selection-end="466" vertical-scroll-proportion="0.4061372">
           <folding />
         </state>
       </provider>

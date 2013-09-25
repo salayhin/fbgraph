@@ -4,25 +4,13 @@
 <div id="fb-root"></div>
 <script>
     // assume we are already logged in
-    //      FB.init({appId: '<%#= APP_KEY %>', xfbml: true, cookie: true});
-    //      {new_bride_url}
+    FB.init({appId: '165217670339554', xfbml: true, cookie: true});
+
     FB.ui({
         method: 'send',
-        name: 'testing',
-        link: 'google.com',
-        picture: '<%= "" %>',
-        to: 100000277256161,
-        description: 'SnapKnot helps engaged couples find their perfect wedding photographer, and allows wedding guests to socialize and have early access to photos. Browse thousands of wedding and engagement photos for inspiration, choose your favorite photographers and contact for booking info - all for free.',
-        show_error: true
-    },requestCallback);
-
-    function requestCallback(response) {
-        if (response== null){
-            console.log("error");
-        }else{
-            console.log("success");
-        }
-    }
+        name: 'Facebook Dialogs',
+        link: 'https://developers.facebook.com/docs/reference/dialogs/'
+    });
 </script>
 </body>
 </html>
