@@ -7,7 +7,7 @@
     </list>
     <ignored path="fbgraph.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1380084941770" ignored="false" />
+    <file path="/Dummy.txt" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1380085157252" ignored="false" />
     <file path="/oauth_controller.rb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1380084934589" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/config/facebook.yml" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379512881794" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/app/views/layouts/application.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379512951600" ignored="false" />
@@ -16,7 +16,7 @@
     <file path="$PROJECT_DIR$/../facebook_js/app/views/posts/index.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379513537187" ignored="false" />
     <file path="$PROJECT_DIR$/../facebook_js/.idea/workspace.xml" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379577000415" ignored="false" />
     <file path="/application.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379569914627" ignored="false" />
-    <file path="/callback.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1379572573846" ignored="false" />
+    <file path="/callback.html.erb" changelist="1953418e-29cb-4d35-82dd-1e1830e2ec22" time="1380085362590" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <file leaf-file-name="callback.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="26" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.69316083">
+            <state line="29" column="5" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.80406654">
               <folding />
             </state>
           </provider>
@@ -329,7 +329,11 @@
       <created>1380084944181</created>
       <updated>1380084944181</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modification done">
+      <created>1380085158002</created>
+      <updated>1380085158002</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -527,7 +531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/oauth/callback.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.69316083">
+        <state line="29" column="5" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.80406654">
           <folding />
         </state>
       </provider>

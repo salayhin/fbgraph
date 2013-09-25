@@ -18,24 +18,13 @@
 
     function requestCallback(response) {
         if (response== null){
-            // sending cancelled action
+            console.log("error");
         }else{
-            if(response["success"] == true){
-                $.ajax({
-                    type: "post",
-                    url: "",
-                    data: {team_member_id: "100000277256161>" },
-                    success: function() {
-                        $("#invite-member-100000277256161").parent().html("Invitation Sent");
-
-                    }
-                });
-            }
+            console.log("success");
         }
-        $.colorbox.close();
     }
 </script>
 </body>
 </html>
 
-<%= @friends_response %>
+<%= #@friends_response %>
